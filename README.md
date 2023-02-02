@@ -3,9 +3,9 @@
 Login and Register Form
 ====================================
 
-A login and signup form using HTML, PHP, and MySQL. This form allows users to register and login. 
-All information is stored in a MySQL database. After successful login the user is redirected to their dashboard.
-I enjoy making software so much! Please, if you see any issues make them known!
+A Responsive Design Registration Form built with PHP, and Bootstrap latest versions.
+Currently, it serves as a template but is actively being developed and updates are expected in the near future.
+Let me know if you encounter any problems or Issues!
 
 Documentation
 ===============
