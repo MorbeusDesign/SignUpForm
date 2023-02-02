@@ -20,7 +20,7 @@ Features
 
 Preview
 ========
-<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/main/SignUpForm.PNG' alt = 'SignUpForm' />
+<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/SignUpForm.PNG' alt = 'SignUpForm' />
 License
 ==========
 This software is under an MIT License. Which allows full use to edit, distribute, or sell this code.
