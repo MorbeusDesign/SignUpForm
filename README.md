@@ -20,7 +20,7 @@ Features
 
 Preview
 ========
-
+<img src = 'https://github.com/MorbeusDesign/PHP-SignUp-Form/blob/main/SignUpForm.png' alt = 'SignUpForm' />
 License
 ==========
 This software is under an MIT License. Which allows full use to edit, distribute, or sell this code.
