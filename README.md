@@ -20,9 +20,6 @@ Features
 
 Preview
 ========
-Login Form: https://files.nateduhamell.com/test/login-signup-form-master/login.php
-
-Registration Form: https://files.nateduhamell.com/test/login-signup-form-master/registration.php
 
 License
 ==========
