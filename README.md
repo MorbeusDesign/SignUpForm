@@ -13,14 +13,19 @@ https://link
 
 Features
 ===============
-* stores passwords in DB 
-* Modern and Responsive design
-* designed for security
+* Modern and Responsive BootStrap v.5.2 Design
+* Required Fields (PHP & JS Scripts)
+* Designed for security: Anti-Hacking Cross Site Scripting
+* Validate Form Data With PHP 
+
 
 
 Preview
 ========
 <img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm.PNG' alt = 'SignUpForm' />
+
+<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm_.PNG' alt = 'SignUpFormCollage' />
+
 
 License
 ==========
