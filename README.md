@@ -20,7 +20,7 @@ Features
 
 Preview
 ========
-<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm.jpg' alt = 'SignUpForm' />
+<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm.PNG' alt = 'SignUpForm' />
 
 License
 ==========
