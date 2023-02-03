@@ -24,7 +24,7 @@ Preview
 ========
 <img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm.PNG' alt = 'SignUpForm' />
 
-<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm_.PNG' alt = 'SignUpFormCollage' />
+<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm_.png' alt = 'SignUpFormCollage' />
 
 
 License
