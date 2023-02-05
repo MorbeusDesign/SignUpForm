@@ -2,14 +2,20 @@
 
 <?php
 
+/* Contant Declaration */
 define('REQUIRED_FIELD_ERROR', 'This field is required');
 
+/* Global Variables Declaration */
 $errors = [];
 $username = '';
 $email = '';
 $password = '';
 $password_confirm = '';
 $postData = [];
+
+//===========================================================================================
+// VALIDATION AREA
+//===========================================================================================
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = post_data('username');
@@ -36,9 +42,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($password && $password_confirm && strcmp($password, $password_confirm) !== 0){
         $errors['password_confirm'] = 'Please repeat the password correctly';
     }
-
+       
 }
 
+/* Post Variables Sanitizer */ 
 function post_data($field)
 {
     if (!isset($_POST[$field])) {
@@ -50,6 +57,10 @@ function post_data($field)
 
 
 ?>
+
+//===========================================================================================
+// FrontEnd: HTML/CSS inline/ + BootStrap v5.2
+//===========================================================================================
 
 <!DOCTYPE html>
 <html lang="en">
@@ -74,7 +85,7 @@ function post_data($field)
 
                                     <p class="text-center h2 fw-bold mb-3 mx-1 mx-md-4 mt-1">Sign up</p>
                                  
-                                    <form class="mx-1 mx-md-4 needs-validation" novalidate action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
+                                    <form class="mx-1 mx-md-4 needs-validation" formnovalidate action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
 
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <div class="form-group form-outline flex-fill mb-0">
@@ -112,7 +123,7 @@ function post_data($field)
 
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <div class="form-outline flex-fill mb-0">
-                                                    <label class="form-label">Repeat your password</label>
+                                                    <label class="form-label">Repeat your Password</label>
                                                     <input type="password"
                                                     class="form-control <?php echo isset($errors['password_confirm']) ? 'is-invalid' : '' ?>"
                                                     name="password_confirm" value="<?php echo $password_confirm ?>">
@@ -162,7 +173,7 @@ function post_data($field)
             </div>   
         </div>
     </section>
-    <script src="script.js"></script>
+
 </body>
 </html> 
 

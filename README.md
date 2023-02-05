@@ -14,18 +14,23 @@ https://link
 Features
 ===============
 * Modern and Responsive BootStrap v.5.2 Design
-* Required Fields (PHP & JS Scripts)
-* Designed for security: Anti-Hacking Cross Site Scripting
+* Well-Documented Codes, easy to understand & written description that 
+* Required Fields (only PHP & Bootstrap! Without JS Scripts)
+* Designed for Security: Anti-Hacking - SQL Injection & Cross Site Scripting (XSS)
 * Validate Form Data With PHP 
 
 
 
 Preview
 ========
+
 <img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm.PNG' alt = 'SignUpForm' />
 
-<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpForm_.png' alt = 'SignUpFormCollage' />
+<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpFormRequire.PNG' alt = 'SignUpFormRequire' />
 
+<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpFormUsername.PNG' alt = 'SignUpFormUsername' />
+
+<img src = 'https://github.com/MorbeusDesign/SignUpForm/blob/master/image/SignUpFormOk.PNG' alt = 'SignUpFormFull' />
 
 License
 ==========
